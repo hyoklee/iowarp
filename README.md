@@ -34,6 +34,21 @@ import iowarp_agent_toolkit
 import iowarp_core
 ```
 
+## Uninstallation
+
+To completely remove all IOWarp components, you need to explicitly uninstall all packages since pip doesn't automatically remove dependencies:
+
+```bash
+pip uninstall iowarp iowarp-agent-toolkit iowarp-core
+```
+
+Alternatively, if you have `pip-autoremove` installed:
+
+```bash
+pip install pip-autoremove
+pip-autoremove iowarp -y
+```
+
 ## Development
 
 ### Building the package locally
