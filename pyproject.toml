@@ -27,8 +27,8 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/hyoklee/iowarp"
-"Bug Tracker" = "https://github.com/hyoklee/iowarp/issues"
+"Homepage" = "https://github.com/iowarp/iowarp"
+"Bug Tracker" = "https://github.com/iowarp/iowarp/issues"
 
 [tool.setuptools]
 packages = ["iowarp"]
